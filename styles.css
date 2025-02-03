@@ -1,3 +1,64 @@
-.aboutme {
+body {
+    background-color: #0E0E0E;
+    margin: 0px;
+}
+
+/*.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #DAC5A7;
+    height: 65px;
+    width: 595px;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: black;
     
+
+    
+}*/
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #DAC5A7;
+    height: 65px;
+    width: 600px; /* Set a fixed width */
+    position: fixed; /* Keeps the navbar on top */
+    top: 0;
+    left: 50%; /* Moves it towards the center */
+    transform: translateX(-50%); /* Adjusts for exact centering */
+    z-index: 10; /* Ensures it's above the image */
+    background-color: black; /* Prevents content from overlapping */
+}
+.navbarbtns {
+    display: inline;
+    background-color: #0E0E0E;
+    height: 40px;
+    width: 120px;
+    color: #DAC5A7;
+    border: 2px;
+    border-color: gold;
+    margin: auto;
+    
+}
+
+.img-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.img1 {
+    position: absolute;
+    top: 65px;
+    left: 60% ;
+    width: 100% ;
+    height: auto;
+    z-index: -1;
+    transform: translateX(-50%);
 }
